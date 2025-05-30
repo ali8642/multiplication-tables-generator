@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Tables Generator</title>
+</head>
+
+<body>
+
+    <script>
+        var x = +prompt("Enter a number to generate its multiplication table:");
+
+        for (var i = 2; i <= x; i++) {
+            document.write("<h3>Multiplication Table of " + i + "</h3>");
+            document.write("<hr>");
+            for (var j = 1; j <= 10; j++) {
+                document.write(i + " x " + j + " = " + (i * j) + "<br>");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
